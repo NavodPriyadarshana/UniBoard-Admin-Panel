@@ -72,6 +72,8 @@ export default function Login() {
                 fontSize: 14,
                 outline: 'none',
                 background: '#F8F9FA',
+                color: '#1A1A2E',
+                fontFamily: 'Poppins, sans-serif',
               }}
             />
           </div>
@@ -101,6 +103,8 @@ export default function Login() {
                 fontSize: 14,
                 outline: 'none',
                 background: '#F8F9FA',
+                color: '#1A1A2E',
+                fontFamily: 'Poppins, sans-serif',
               }}
             />
           </div>
