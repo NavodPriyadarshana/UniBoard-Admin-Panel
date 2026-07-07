@@ -31,8 +31,8 @@ export default function Login() {
       <div style={{
         background: 'white',
         borderRadius: 20,
-        padding: 40,
-        width: 400,
+        padding: 'clamp(24px, 5vw, 40px)',
+        width: 'min(400px, 90vw)',
         boxShadow: '0 4px 24px rgba(0,0,0,0.08)',
       }}>
         {/* Logo */}
@@ -72,7 +72,6 @@ export default function Login() {
                 fontSize: 14,
                 outline: 'none',
                 background: '#F8F9FA',
-                color: '#1A1A2E',
               }}
             />
           </div>
@@ -102,7 +101,6 @@ export default function Login() {
                 fontSize: 14,
                 outline: 'none',
                 background: '#F8F9FA',
-                color: '#1A1A2E',
               }}
             />
           </div>
