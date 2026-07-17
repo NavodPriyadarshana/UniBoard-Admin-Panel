@@ -65,9 +65,9 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
         paddingLeft: 8,
       }}>
         <div>
-          <h2 style={{ fontSize: 20, fontWeight: 700, color: '#1A1A2E', margin: 0 }}>
-            <span style={{ color: '#2B658B' }}>Uni</span>
-            <span style={{ color: '#F09418' }}>Board</span>
+          <h2 style={{ fontSize: 40, fontWeight: 700, color: '#1A1A2E', margin: 0 }}>
+            <span style={{ color: '#2B658B', fontFamily: "'Agency FB', sans-serif" }}>Uni</span>
+            <span style={{ color: '#F09418', fontFamily: "'Agency FB', sans-serif" }}>Board</span>
           </h2>
           <p style={{ fontSize: 11, color: '#5C6B8A', marginTop: 2 }}>
             Admin Dashboard
