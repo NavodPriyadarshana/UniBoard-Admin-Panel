@@ -94,7 +94,7 @@ firebase deploy --only hosting
 
 Developed by **Nimna Kavishka (22UG3-0754)** as part of the UniBoard project.
 
-**Institution:** SLTC Research University | **Module:** CIT310
+**Institution:** SLTC Research University | **Module:** CIT310 Information Technology Project
 
 ---
 
