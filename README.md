@@ -1,16 +1,103 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# UniBoard Admin Panel
+### Web-based Administration Dashboard for UniBoard Platform
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+*React.js admin dashboard for managing the UniBoard student boarding finder platform.*
 
-## React Compiler
+[Live Demo](https://uniboard-fd52f.web.app) • [Mobile App Repo](https://github.com/NavodPriyadarshana/UniBoard)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 About
+
+The UniBoard Admin Panel is a React.js web application deployed on Firebase Hosting. It allows administrators to manage the entire UniBoard platform — verifying landlord applications, sending OTP emails, managing listings, and monitoring platform statistics.
+
+---
+
+## ✨ Features
+
+- 📊 **Dashboard** — Real-time statistics (users, listings, bookings, applications)
+- 📄 **Applications** — Review landlord documents, approve/reject, send OTP via EmailJS
+- 👥 **Users** — Manage students and landlords with subscription plan badges
+- 🏠 **Listings** — Verify/unverify boarding listings
+- 📱 **Responsive** — Mobile-friendly with hamburger sidebar
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| React.js + Vite | Frontend framework and build tool |
+| Firebase Firestore | Real-time database |
+| Firebase Authentication | Admin login |
+| Firebase Hosting | Deployment |
+| EmailJS | Automated OTP email delivery |
+| Lucide React | Icon library |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- Firebase CLI
+- EmailJS account
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/NavodPriyadarshana/UniBoard-Admin-Panel.git
+cd UniBoard-Admin-Panel
+```
+
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Create .env file**
+```
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+4. **Run development server**
+```bash
+npm run dev
+```
+
+5. **Build for production**
+```bash
+npm run build
+firebase deploy --only hosting
+```
+
+---
+
+## 🔗 Related
+
+- 📱 **UniBoard Mobile App:** https://github.com/NavodPriyadarshana/UniBoard
+
+---
+
+## 👥 Team
+
+Developed by **Nimna Kavishka (22UG3-0754)** as part of the UniBoard project.
+
+**Institution:** SLTC Research University | **Module:** CIT310
+
+---
+
+<div align="center">
+Made with ❤️ by Team UniBoard | SLTC Research University 2026
+</div>
