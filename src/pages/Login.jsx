@@ -62,7 +62,7 @@ export default function Login() {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="admin@uniboard.lk"
+              placeholder="Enter your email"
               required
               style={{
                 width: '100%',
